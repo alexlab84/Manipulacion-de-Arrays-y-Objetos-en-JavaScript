@@ -1,6 +1,7 @@
 import MapArray from './MapArray';
 import FilterArray from './FilterArray';
 import ReduceArray from './ReduceArray';
+import UpdateObject from './UpdateObject';
 import '../styles/App.scss';
 
 
@@ -12,6 +13,7 @@ function App() {
        <MapArray />
        <FilterArray />
        <ReduceArray />
+       <UpdateObject />
     </>
   )
 }
